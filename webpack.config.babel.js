@@ -59,7 +59,7 @@ export default {
     new DashboardPlugin(Dashboard.setData),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: path.resolve('./app/index.ejs'),
+      template: path.resolve('./app/index.html'),
       inject: true,
     }),
   ],
